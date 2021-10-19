@@ -1,0 +1,154 @@
+
+/* Whole document: */
+body{
+  font-family: Helvetica;
+  font-size: 16pt;
+}
+
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 24pt;
+}
+
+/* Echos of code chunks */
+code.r{
+  font-size: 14pt;
+}
+
+/* Results of code chunks */
+pre {
+  font-size: 14pt
+}
+
+/* See: https://stackoverflow.com/questions/45360998/code-folding-in-bookdown */
+.code-folding-btn { 
+  margin-top: -5px;
+  margin-bottom: -5px;
+  background-color: #e6e6e6; 	
+  color: #333333;
+  font-style: italic;
+  cursor: pointer;
+  width: 100%;
+  padding: 0px;
+  border: 1px solid;
+  border-color: #cccccc;
+  text-align: left;
+  outline: none;
+  font-family: Helvetica;
+  font-size: 14pt;
+}
+.row { display: flex; }
+.collapse { display: none; }
+.in { display:block }
+
+/* Vertical scroll bar */
+/*div.sourceCode {*/
+/*    overflow: hidden;*/
+/*}*/
+
+/* https://www.w3schools.com/howto/howto_css_style_hr.asp */
+hr {
+  border-top: 2px solid #e6e6e6;
+/*  margin-bottom: 0px; */
+/*  margin-top: 0px; */
+}
+
+/* For collapsible No 1 */
+.collapsible01 {
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  background-color: white;
+  color: #333333;
+  font-style: italic;
+  cursor: pointer;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid;
+  border-color: #cccccc;
+  text-align: left;
+  outline: none;
+  font-family: Helvetica;
+  font-size: 12pt;
+}
+
+/* For collapsible No 2*/
+.collapsible02 {
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  background-color: white;
+  color: #333333;
+  font-style: italic;
+  cursor: pointer;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid;
+  border-color: #cccccc;
+  text-align: left;
+  outline: none;
+  font-family: Helvetica;
+  font-size: 16pt;
+}
+
+
+.content {
+  display: none;
+}
+
+p {margin-bottom: 10px;
+   margin-top: 10px;
+} 
+
+/* UoH logo */
+.logos {
+ background-color: #003f75;
+ color: white;
+ font-family: Arial Nova Cond Light;
+ font-size: 24pt;
+}
+
+/* Author */
+h4.author {
+  margin-top: 10pt;
+  font-size: 18pt;
+  font-style: italic;
+}
+
+/* Head content 01 */
+.head01 {
+  font-size: 20pt;
+  text-decoration: underline;
+}
+
+/* Head content 02 */
+.head02 {
+  font-size: 18pt;
+  text-decoration: underline;
+}
+
+/* Head content 03 */
+.head03 {
+  font-size: 16pt;
+  text-decoration: underline;
+}
+
+/* Sub content 01 */
+.sub01 {
+  margin-left: 40px;
+  font-size: 16pt
+}
+
+/* Sources */
+.sou01 {
+  float: right;
+  font-size: 12pt;
+  font-style: italic
+}
+
+/* Note 01 */
+.note01 {
+  font-size: 14pt;
+  font-style: italic
+}
+
+
+/* https://www.w3schools.com/html/html_formatting.asp */
